@@ -32,3 +32,8 @@ textarea {
   grid-template-rows: 1fr 4.5fr;
   gap: 3rem;
 }
+h1,
+h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
