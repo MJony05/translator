@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  width: 80%;
+  margin: 0 auto;
+  gap: 3rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+select,
+option,
+textarea {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  resize: none;
+}
+.center {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4.5fr;
+  gap: 3rem;
+}
