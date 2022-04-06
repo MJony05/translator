@@ -24,6 +24,7 @@ textarea {
   display: inline-block;
   padding: 0.5rem 1rem;
   resize: none;
+  font-size: 1rem;
 }
 .center {
   display: grid;

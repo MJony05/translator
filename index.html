@@ -9,12 +9,10 @@
   </head>
   <body>
     <h1>Magic Translator</h1>
+    <h2>111 languages</h2>
     <div class="container">
       <div class="box box_from">
-        <select name="from" id="from">
-          <option value="uzbek">uzbek</option>
-          <option value="english">english</option>
-        </select>
+        <select name="from" id="from"></select>
         <textarea
           name=""
           id=""
@@ -25,19 +23,16 @@
       </div>
       <div class="center">
         <button class="changer">⇄</button>
-        <button type="submit">Translate</button>
+        <button type="submit" class="run__btn">Translate</button>
       </div>
       <div class="box box_to">
-        <select name="to" id="to">
-          <option value="uzbek">uzbek</option>
-          <option value="english">english</option>
-        </select>
+        <select name="to" id="to"></select>
         <textarea
           name=""
           id=""
           cols="30"
           rows="10"
-          class="from__input"
+          class="to__input"
         ></textarea>
       </div>
     </div>
