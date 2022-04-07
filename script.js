@@ -12,20 +12,20 @@ btn.addEventListener("click", function () {
   encodedParams.append("target", toLang.value);
   encodedParams.append("source", fromLang.value);
 
-  const option = {
+  const options = {
     method: "POST",
     headers: {
       "content-type": "application/x-www-form-urlencoded",
       "Accept-Encoding": "application/gzip",
       "X-RapidAPI-Host": "google-translate1.p.rapidapi.com",
-      "X-RapidAPI-Key": "97416f0647mshd2f9e4b4dce799cp1d2ebbjsn740c380f4aef",
+      "X-RapidAPI-Key": "75de6d5070mshf707e70a814e743p151568jsn8a189fc13d44",
     },
     body: encodedParams,
   };
 
   fetch(
     "https://google-translate1.p.rapidapi.com/language/translate/v2",
-    option
+    options
   )
     .then((response) => response.json())
     .then((response) => {
